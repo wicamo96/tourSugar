@@ -7,6 +7,25 @@ const venues = getVenues();
 
 
 
+document.addEventListener("click", (click) => {
+    // Store info about what was clicked
+    const clickTarget = click.target;
+
+    // Check if the data type is booking
+    if (clickTarget.dataset.type === "booking") {
+        // Find the band from the band array that matches the id stored in the dataset of what was clicked
+        const band = bands.find(band => band.id === parseInt(clickTarget.dataset.id));
+
+        // Create a message including band name, genre, founding year, and number of members
+        window.alert(`${band.name}
+${band.genre}
+Formed in ${band.yearFounded}
+${band.numOfMembers} band members`);
+    }
+})
+
+
+
 export const bookings = () => {
     // Declare a variable to begin storing the html formatted data
     let htmlString = `<ul>`;
@@ -24,7 +43,7 @@ export const bookings = () => {
                 const venue = venues.find(venue => venue.id === booking.venueId);
 
                 // Create the string that displays where and when the current band is playing
-                htmlString += `<li>${band.name} are playing at ${venue.name} on ${booking.date}</li>`;
+                htmlString += `<li data-type="booking" data-id="${band.id}">${band.name} are playing at ${venue.name} on ${booking.date}</li>`;
             }
         }
     }
