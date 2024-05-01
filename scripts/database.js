@@ -588,3 +588,7 @@ export const getBookings = () => {
 export const getVenues = () => {
     return database.venues.map(venues => ({...venues}));
 }
+
+export const getMembers = () => {
+    return database.bandMembers.map(bandMembers => ({...bandMembers}));
+}
