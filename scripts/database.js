@@ -89,6 +89,408 @@ const database = {
             yearFounded: 2013
         }
     ],
+    bandMembers: [
+        {
+            id: 1,
+            bandId: 1,
+            firstName: "Andy",
+            lastName: "Hall",
+            birthYear: 1970,
+            instrument: "Dobro"
+        },
+        {
+            id: 2,
+            bandId: 1,
+            firstName: "Andy",
+            lastName: "Falco",
+            birthYear: 1970,
+            instrument: "Guitar"
+        },
+        {
+            id: 3,
+            bandId: 1,
+            firstName: "Chris",
+            lastName: "Pandolfi",
+            birthYear: 1970,
+            instrument: "Banjo"
+        },
+        {
+            id: 4,
+            bandId: 1,
+            firstName: "Jeremy",
+            lastName: "Garrett",
+            birthYear: 1970,
+            instrument: "Fiddle"
+        },
+        {
+            id: 5,
+            bandId: 1,
+            firstName: "Travis",
+            lastName: "Book",
+            birthYear: 1970,
+            instrument: "Double Bass"
+        },
+        {
+            id: 6,
+            bandId: 2,
+            firstName: "Marcus",
+            lastName: "King",
+            birthYear: 1970,
+            instrument: "Vocals and Guitar"
+        },
+        {
+            id: 7,
+            bandId: 2,
+            firstName: "Jack",
+            lastName: "Ryan",
+            birthYear: 1970,
+            instrument: "Drums"
+        },
+        {
+            id: 8,
+            bandId: 2,
+            firstName: "Stephen",
+            lastName: "Campbell",
+            birthYear: 1970,
+            instrument: "Bass"
+        },
+        {
+            id: 9,
+            bandId: 2,
+            firstName: "Drew",
+            lastName: "Smithers",
+            birthYear: 1970,
+            instrument: "guitar"
+        },
+        {
+            id: 10,
+            bandId: 3,
+            firstName: "Austin",
+            lastName: "Bohlman",
+            birthYear: 1970,
+            instrument: "Drums"
+        },
+        {
+            id: 11,
+            bandId: 3,
+            firstName: "Ian",
+            lastName: "Mcdonald",
+            birthYear: 1970,
+            instrument: "Guitar"
+        },
+        {
+            id: 12,
+            bandId: 3,
+            firstName: "Kelly",
+            lastName: "Finnigan",
+            birthYear: 1970,
+            instrument: "Vocals and Keyboard"
+        },
+        {
+            id: 13,
+            bandId: 3,
+            firstName: "Myles",
+            lastName: "O'Mahony",
+            birthYear: 1970,
+            instrument: "Bass"
+        },
+        {
+            id: 14,
+            bandId: 4,
+            firstName: "Anderson",
+            lastName: ".Paak",
+            birthYear: 1970,
+            instrument: "Vocals and Drums"
+        },
+        {
+            id: 15,
+            bandId: 4,
+            firstName: "Jose",
+            lastName: "Rios",
+            birthYear: 1970,
+            instrument: "Guitar and Backing Vocals"
+        },
+        {
+            id: 16,
+            bandId: 4,
+            firstName: "Ron",
+            lastName: "Avant",
+            birthYear: 1970,
+            instrument: "Keyboard"
+        },
+        {
+            id: 17,
+            bandId: 4,
+            firstName: "Kelsey",
+            lastName: "Gonzalez",
+            birthYear: 1970,
+            instrument: "Bass"
+        },
+        {
+            id: 18,
+            bandId: 4,
+            firstName: "Callum",
+            lastName: "Connor",
+            birthYear: 1970,
+            instrument: "DJ"
+        },
+        {
+            id: 19,
+            bandId: 5,
+            firstName: "Sharon",
+            lastName: "Jones",
+            birthYear: 1970,
+            instrument: "Vocals"
+        },
+        {
+            id: 20,
+            bandId: 5,
+            firstName: "Binky",
+            lastName: "Griptite",
+            birthYear: 1970,
+            instrument: "Guitar"
+        },
+        {
+            id: 21,
+            bandId: 5,
+            firstName: "Gabriel",
+            lastName: "Roth",
+            birthYear: 1970,
+            instrument: "Bass"
+        },
+        {
+            id: 22,
+            bandId: 5,
+            firstName: "Fernando",
+            lastName: "Velez",
+            birthYear: 1970,
+            instrument: "Conga"
+        },
+        {
+            id: 23,
+            bandId: 5,
+            firstName: "Homer",
+            lastName: "Steinweiss",
+            birthYear: 1970,
+            instrument: "Drums"
+        },
+        {
+            id: 24,
+            bandId: 5,
+            firstName: "Dave",
+            lastName: "Guy",
+            birthYear: 1970,
+            instrument: "Trumpet"
+        },
+        {
+            id: 25,
+            bandId: 5,
+            firstName: "Neal",
+            lastName: "Sugarman",
+            birthYear: 1970,
+            instrument: "Tenor Saxophone"
+        },
+        {
+            id: 26,
+            bandId: 5,
+            firstName: "Joe",
+            lastName: "Crispiano",
+            birthYear: 1970,
+            instrument: "Guitar"
+        },
+        {
+            id: 27,
+            bandId: 5,
+            firstName: "Cochemea",
+            lastName: "Gastelum",
+            birthYear: 1970,
+            instrument: "Alto Saxophone"
+        },
+        {
+            id: 28,
+            bandId: 5,
+            firstName: "Thomas",
+            lastName: "Brenneck",
+            birthYear: 1970,
+            instrument: "Piano"
+        },
+        {
+            id: 29,
+            bandId: 5,
+            firstName: "Ian",
+            lastName: "Hendrickson-Smith",
+            birthYear: 1970,
+            instrument: "Baritone Saxophone"
+        },
+        {
+            id: 30,
+            bandId: 6,
+            firstName: "Michael",
+            lastName: "Bont",
+            birthYear: 1970,
+            instrument: "Banjo"
+        },
+        {
+            id: 31,
+            bandId: 6,
+            firstName: "Dave",
+            lastName: "Bruzza",
+            birthYear: 1970,
+            instrument: "Guitar"
+        },
+        {
+            id: 32,
+            bandId: 6,
+            firstName: "Paul",
+            lastName: "Hoffman",
+            birthYear: 1970,
+            instrument: "Mandolin"
+        },
+        {
+            id: 33,
+            bandId: 6,
+            firstName: "Mike",
+            lastName: "Devol",
+            birthYear: 1970,
+            instrument: "Bass"
+        },
+        {
+            id: 34,
+            bandId: 6,
+            firstName: "Anders",
+            lastName: "Beck",
+            birthYear: 1970,
+            instrument: "Dobro"
+        },
+        {
+            id: 35,
+            bandId: 7,
+            firstName: "Dan",
+            lastName: "Auerbach",
+            birthYear: 1970,
+            instrument: "Vocals and Guitar"
+        },
+        {
+            id: 36,
+            bandId: 7,
+            firstName: "Patrick",
+            lastName: "Carney",
+            birthYear: 1970,
+            instrument: "Drums"
+        },
+        {
+            id: 37,
+            bandId: 8,
+            firstName: "Chris",
+            lastName: "Stapleton",
+            birthYear: 1970,
+            instrument: "Vocals and Guitar"
+        },
+        {
+            id: 38,
+            bandId: 8,
+            firstName: "Tammy",
+            lastName: "Rogers",
+            birthYear: 1970,
+            instrument: "Fiddle"
+        },
+        {
+            id: 39,
+            bandId: 8,
+            firstName: "Mike",
+            lastName: "Fleming",
+            birthYear: 1970,
+            instrument: "Bass"
+        },
+        {
+            id: 40,
+            bandId: 8,
+            firstName: "Matt",
+            lastName: "Dame",
+            birthYear: 1970,
+            instrument: "Guitar and Vocals"
+        },
+        {
+            id: 41,
+            bandId: 8,
+            firstName: "Brent",
+            lastName: "Truitt",
+            birthYear: 1970,
+            instrument: "Mandolin"
+        },
+        {
+            id: 42,
+            bandId: 8,
+            firstName: "Richard",
+            lastName: "Bailey",
+            birthYear: 1970,
+            instrument: "Banjo"
+        },
+        {
+            id: 43,
+            bandId: 9,
+            firstName: "Shawn",
+            lastName: "Swain",
+            birthYear: 1970,
+            instrument: "Mandolin"
+        },
+        {
+            id: 44,
+            bandId: 9,
+            firstName: "Torrin",
+            lastName: "Daniels",
+            birthYear: 1970,
+            instrument: "Banjo"
+        },
+        {
+            id: 45,
+            bandId: 9,
+            firstName: "Joe",
+            lastName: "Funk",
+            birthYear: 1970,
+            instrument: "Upright Bass"
+        },
+        {
+            id: 46,
+            bandId: 9,
+            firstName: "Max",
+            lastName: "Davies",
+            birthYear: 1970,
+            instrument: "Guitar"
+        },
+        {
+            id: 47,
+            bandId: 10,
+            firstName: "Sarah",
+            lastName: "Barthel",
+            birthYear: 1970,
+            instrument: "Vocals and Instrumentals"
+        },
+        {
+            id: 48,
+            bandId: 10,
+            firstName: "Josh",
+            lastName: "Carter",
+            birthYear: 1970,
+            instrument: "Vocals and Instrumentals"
+        },
+        {
+            id: 49,
+            bandId: 11,
+            firstName: "Josh",
+            lastName: "Lloyd-Watson",
+            birthYear: 1970,
+            instrument: "Producer"
+        },
+        {
+            id: 50,
+            bandId: 11,
+            firstName: "Tom",
+            lastName: "McFarland",
+            birthYear: 1970,
+            instrument: "Producer"
+        }
+    ],
     bookings: [
         {
             id: 1,
