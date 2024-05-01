@@ -10,19 +10,19 @@ import { bookings } from "./bookings.js"
 // Grab the location for where the html info will be inserted and store in the htmlInsert variable
 const htmlInsert = document.querySelector("#container");
 
-const allHTMLInsert = `<h1>Tour Some Sugar On Me</h1>
+const allHTMLInsert = `<h1 class="header">Tour Some Sugar On Me</h1>
 <article>
-    <section id="bookingList">
+    <section class="subItem" id="bookingList">
         <h2>Bookings</h2>
         ${bookings()}
     </section>
 </article>
 <article class="container">
-    <section id="venueList">
+    <section class="subItem" id="venueList">
         <h2>Venues</h2>
         ${venues()}
     </section>
-    <section id="bandList">
+    <section class="subItem" id="bandList">
         <h2>Bands</h2>
         ${bands()}
     </section>

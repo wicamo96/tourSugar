@@ -1,4 +1,27 @@
+body {
+    background-color: #ffc815;
+}
+
+#bookingList {
+    text-align: center;
+    margin-bottom: 1em;
+    margin-right: 12%;
+    margin-left: 12%;
+    padding: 1em;
+}
+
 .container {
     display: flex;
     justify-content: space-evenly;
+}
+
+.header {
+    text-align: center;
+}
+
+.subItem {
+    background-color: #585858;
+    flex-basis: 30%;
+    padding: 1em;
+    color: #d3d3d3;
 }
